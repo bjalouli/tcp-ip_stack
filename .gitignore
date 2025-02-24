@@ -1,0 +1,42 @@
+# Ignore object files and binaries
+*.o
+*.bin
+
+# Ignore build artifacts
+*.elf
+*.map
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Ignore editor and IDE configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore compiled libraries and cache
+*.d
+*.obj
+*.pyc
+*.pyo
+*.class
+*.lo
+
+# Ignore dependency files
+.dep/
+*.dSYM/
+*.mod.c
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.~*
+
+# Ignore auto-generated files
+tags
+ctags
+TAGS
